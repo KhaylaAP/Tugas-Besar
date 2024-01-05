@@ -1,3 +1,4 @@
+/* 2372039 Khayla B */
 // Darkmode
 function darkMode() {
     // Memilih element body untuk diganti
