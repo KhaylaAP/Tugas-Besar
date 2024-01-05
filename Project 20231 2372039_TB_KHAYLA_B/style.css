@@ -1,0 +1,154 @@
+*{
+    font-family: Playpen Sans;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    position: sticky;
+    margin-top: 0px;
+}
+
+nav a:hover{
+    background-color: rgb(77, 76, 76);
+}
+
+@media screen and (max-width:600px) {
+    nav a{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-indent: 10px;
+    margin: 20px;
+}
+
+aside{
+    flex: 70%;
+    padding: 20px;
+}
+
+.img1{
+    border-radius: 50px;
+}
+
+article{
+    flex: 30%;
+    padding: 20px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.aside1{
+    flex: 70%;
+    padding: 20px;
+    text-align: justify;
+}
+.aside1 a{
+    text-decoration: none;
+    color: rgb(71, 106, 155);
+}
+
+.article1{
+    flex: 30%;
+    padding: 20px;
+}
+
+.img2{
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.masthead_A{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bg_A.jpg');
+}
+
+.masthead_H{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bg_H.jpg');
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.masthead_B{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bg_B.jpg');
+}
+
+.masthead_P{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bg_P.jpg');
+}
+
+.articleA{
+    justify-content: center;
+    padding: 100px;
+}
+
+.faq{
+    padding-right: 250px;
+}
+
+.img3{
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.p4{
+    margin-top: 2200px;
+}
+
+
+.abrv{
+    position: fixed;
+    right: 20px;
+    top: 100px;
+}
+
+.checkbox1{
+    text-indent: 0px;
+    line-height: 35px;
+}

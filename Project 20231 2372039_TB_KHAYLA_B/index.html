@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Home </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="images/logo.png">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+</head>
+
+<!-- Body -->
+  <body class="body">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <img src="images/logo.png" width="50px"> <!-- Logo -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!-- Home Nav -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"> Home </a>
+        </li>
+        <li class="nav-item dropdown"> <!-- Products Nav -->
+            <a class="nav-link dropdown-toggle" href="Products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Products.html#CrochetProducts"> Crochet </a></li> <!-- Dropdown Crochet -->
+              <li><a class="dropdown-item" href="Products.html#KnitProducts"> Knitting </a></li> <!-- Dropdown Knitting -->
+            </ul>
+          </li>
+          <li class="nav-item"> <!-- Blog Nav -->
+            <a class="nav-link" href="Blog.html"> Blog </a>
+        </li>
+        <li class="nav-item"> <!-- About Nav -->
+            <a class="nav-link" href="About.html"> About </a>
+        </li>
+        <li class="nav-item"> <!-- Darkmode Nav -->
+          <a class="nav-link"> <i class="bi bi-moon" onclick="darkMode()"></i> </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Header -->
+<header class="masthead_H">
+  <div class="container">
+    <div> UniStitch </div>
+</div>
+</header>
+
+<!-- Main -->
+<main>
+
+  <!-- Aside -->
+  <aside>
+
+    <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/ProductsC.jpg" class="d-block w-100 img1" alt="Crochet Products">
+        </div>
+        <div class="carousel-item">
+          <img src="images/ProductsK.jpg" class="d-block w-100 img1" alt="Knit Products">
+        </div>
+        <div class="carousel-item">
+          <img src="images/ToolsA.jpg" class="d-block w-100 img1" alt="Crochet & Knit Tools">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Article -->
+  <article>
+    <br>
+    <p>
+      You've might seen some handicraft products before that are usually made from yarn. These items are made by using either a Crochet method or a Knit method. While most people are more commonly aware of knitting, crochet is slightly similar and yet very different to it. When you knit you would use at minimum 2 knitting needles, while in crochet you would use only 1 crochet hook. Knitting is also mainly used to make clothing items like socks, sweaters, mittens, hats, etc. You can also use crochet to make those items as well as other things like plushies.
+    </p>
+    <p>
+      Another interesting fact about crochet is that it cannot be replicated by machines since it is three-dimensional and that the stitches have many layers so it requires a lot of dexterity during the process. On the other hand, knitting machines exist and is widely used in a semi or fully automatic fashion. While both are unique in their own ways, they each also have their own pros and cons that might make you want to try one more than the other.
+    </p>
+  </article>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark py-4 mt-auto">
+  <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+          <div class="col-auto"><div class="small m-0 text-white"> &copy; Copyright 2023 UniStitch </div></div>
+          <div class="col-auto">
+            <a class="link-light small" href="index.html">Home</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="About.html">About</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="About.html#Contacts">Contacts</a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>

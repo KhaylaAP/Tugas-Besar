@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Knitting Patterns </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="images/logo.png">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+</head>
+
+  <body class="body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <img src="images/logo.png" width="50px"> <!-- Logo -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!-- Home Nav -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"> Home </a>
+        </li>
+        <li class="nav-item dropdown"> <!-- Products Nav -->
+            <a class="nav-link dropdown-toggle" href="Products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Products.html#CrochetProducts"> Crochet </a></li> <!-- Dropdown Crochet -->
+              <li><a class="dropdown-item" href="Products.html#KnitProducts"> Knitting </a></li> <!-- Dropdown Knitting -->
+            </ul>
+          </li>
+          <li class="nav-item"> <!-- Blog Nav -->
+            <a class="nav-link" href="Blog.html"> Blog </a>
+        </li>
+        <li class="nav-item"> <!-- About Nav -->
+            <a class="nav-link" href="About.html"> About </a>
+        </li>
+        <li class="nav-item"> <!-- Darkmode Nav -->
+          <a class="nav-link"> <i class="bi bi-moon" onclick="darkMode()"></i> </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Main -->
+<main>
+  <div class="container">
+    <div class="row">
+      <h1> Knitting Patterns </h1> <br>
+      <!-- Column 1 -->
+      <div class="col">
+        <h3> Socks </h3>
+        <img class="img3" src="images/Socks.jpg"> <br>
+        <h3 class="p4"> Fingerless Mittens </h3>
+        <img class="img3" src="images/Mitten.jpg">
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-5">
+    <!-- Socks -->
+    <h3> Materials </h3>
+    <ul>
+      <li> 5 Double Pointed Knitting Needles </li>
+      <li> Yarn </li>
+      <li> Stich Markers </li>
+      <li> Needle </li>
+      <li> Scissors </li>
+    </ul> <br>
+  
+    <h3> Pattern </h3>
+    <h6><i> by <a href="https://www.youtube.com/watch?v=0ckM_gTNlf8&t=3616s">@CrazySockLady</a> on Youtube</i></h6> <br>
+    <h6>For size S</h6> 
+    <h5> Body </h5>
+    <p class="checkbox1">
+    <input type="checkbox"> CO 56 sts <br>
+    <input type="checkbox"> Evenly distribute the stitches across four needles, join in the round <br>
+    <input type="checkbox"> Knit 1x1 rib for ~4.5cm <br>
+    <input type="checkbox"> Knit in the round even for ~4cm <br>
+    <input type="checkbox"> Knit across needle 1 and needle 2 <br>
+    
+    <h5> Heel Flap </h5>
+    <p class="checkbox1">
+    <input type="checkbox"> (SL ST purlwise with yarn in the back 1, knit 1) across needle 3 and needle 4 <br>
+    <input type="checkbox"> turn the work, SL ST purwise with yarn in the front 1, Purl across <br>
+    <input type="checkbox"> Repeat the last 2 steps x14 (Total 28 rows) <br>
+    </p>
+    
+    <h5> Heel Turn </h5>
+    <p class="checkbox1">
+    <input type="checkbox"> SL ST purlwise with yarn in the back 1, K14, SSK, K1 <br>
+    <input type="checkbox"> turn the work, SL ST purwise with yarn in the front 1, P3, P2tog, P1 <br>
+    <input type="checkbox"> turn the work, SL ST purlwise with yarn in the back 1, Knit to 1 stitch before the gap, SSK, K 1 <br>
+    <input type="checkbox"> turn the work, SL ST purwise with yarn in the front 1, Purl to 1 stitch before the gap, P2tog, P 1 <br>
+    <input type="checkbox"> Repeat those 2 rows until you have 2 unworked stitches on each side <br>
+    <input type="checkbox"> turn the work, Purl to 1 stitch before the gap, P2tog, P1 <br>
+    </p>
+
+    <h5> Gusset </h5>
+    <p class="checkbox1">
+      <input type="checkbox"> K8 on one needle, K8 on another needle <br>
+      <input type="checkbox"> Pick up 14 sts on the side of the heel flap, pick up 1 st on the ladder <br>
+      <input type="checkbox"> Knit across needle 1 and needle 2 <br>
+      <input type="checkbox"> Pick up 1 st on the ladder, pick up 14 sts on the side of the heel flap, knit across needle 3 <br>
+      <input type="checkbox"> Knit across needle 4 until 3 sts before the end of the needle, K2tog, K1, knit across needle 1 & 2, K1, SSK, knit across <br>
+      <input type="checkbox"> Knit 1 round even <br>
+      <input type="checkbox"> Repeat the last 2 steps until each needle has 14 sts <br>
+      <input type="checkbox"> Knit across needle 4 <br>
+      <input type="checkbox"> Knit in the round for ~12cm <br>
+    </p>
+
+    <h5> Toe </h5>
+    <p class="checkbox1">
+      <input type="checkbox"> K1, SSK, knit across needle 1, knit across needle 2 until the last 3 stitches, K2tog, K1, K1, SSK, knit across needle 3, knit across needle 4 until the last 3 stitches, K2tog, K1 <br>
+      <input type="checkbox"> Knit 1 round even <br>
+      <input type="checkbox"> Repeat until there are 7 sts per needle <br><br>
+      <input type="checkbox"> K1, SSK, knit across needle 1, knit across needle 2 until the last 3 stitches, K2tog, K1, K1, SSK, knit across needle 3, knit across needle 4 until the last 3 stitches, K2tog, K1 <br>
+      <input type="checkbox"> Repeat until there are 4 sts per needle <br>
+    </p>
+
+    <h5> Kitchener </h5>
+    <p class="checkbox1">
+      <input type="checkbox"> Combine needle 1 & 2, combine needle 3 & 4 <br>
+      <input type="checkbox"> Cut a long tail yarn, thread through tapestry needle <br>
+      With tapestry needle
+      <input type="checkbox"> K1 the front needle, take off the stitch, P1 the front needle <br>
+      <input type="checkbox"> P1 the back needle, take off stitch, K1 the back needle <br>
+      <input type="checkbox"> Repeat until there are no more stitches on either needles <br>
+      <input type="checkbox"> Weave in ends <br>
+    </p>
+    Your sock is now finished!
+    </p> <br><br><br>
+  
+    <!-- Mittens -->
+    <h3> Materials </h3>
+    <ul>
+      <li> 4 Double Pointed Knitting Needles </li>
+      <li> Yarn </li>
+      <li> Stich Markers </li>
+      <li> Scrap Yarn </li>
+      <li> Needle </li>
+      <li> Scissors </li>
+    </ul> <br>
+  
+    <h3> Pattern </h3>
+    <h6><i> by <a href="https://www.youtube.com/watch?v=44pwS8yzRH0&pp=ygUWa25pdCBmaW5nZXJsZXNzIGdsb3Zlcw%3D%3D">@sheepandstitch</a> on Youtube</i></h6> <br>
+    For size M 
+    <p class="checkbox1">
+    <input type="checkbox"> CO 48 sts <br>
+    <input type="checkbox"> Evenly distribute the stitches across three needles, join in the round <br>
+    <input type="checkbox"> Knit 2x2 rib for ~5cm <br>
+    <input type="checkbox"> K 22 sts, PM, K 4, PM, Knit to the end <br>
+    <input type="checkbox"> Knit 1 round even <br>
+    <input type="checkbox"> Knit 1 round even <br>
+    <input type="checkbox"> (Increase Round) <br> Knit to marker, SM, M1-L, knit to the next marker, M1-R, SM, knit to the end <br>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 increase round <br></li>
+    </ol>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 increase round <br></li>
+    </ol>
+    <input type="checkbox"> Total 54 sts, 10 sts between markers <br>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 increase round <br></li>
+    </ol>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 increase round <br></li>
+    </ol>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 increase round <br></li>
+    </ol>
+    <input type="checkbox"> Total 60 sts, 16 sts between markers <br>
+    </p><br>
+    
+    <h5> Thumb Set up </h5>
+    <p class="checkbox1">
+    <input type="checkbox"> Knit to marker, remove marker, place 16 sts onto scrap yarn, remove marker <br>
+    <input type="checkbox"> CO 1 st, rejoin for working in the round, knit to the end of the round <br>
+    <input type="checkbox"> Total 45 sts on needle, 16 sts on scrap yarn <br>
+    </p>
+
+    <p class="checkbox1">
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+      <li><input type="checkbox"> Knit 1 round even <br></li>
+    </ol>
+    <input type="checkbox"> K2tog, Knit to end (44) <br><br>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+    </ol>
+    <input type="checkbox"> Cast Off loosely <br>
+    <input type="checkbox"> Weave in the ends <br>
+    </p>
+
+    <h5> Thumb </h5>
+    <p class="checkbox1">
+    <input type="checkbox"> Place 16 thumb sts onto needle <br>
+    <input type="checkbox"> Evenly distribute the stitches across 3 needles <br>
+    <input type="checkbox"> Take off scrap yarn <br>
+    <input type="checkbox"> Rejoin working yarn <br>
+    <input type="checkbox"> Knit 1 round even <br>
+    <input type="checkbox"> Pick up and knit 2 sts at the end of the round where there is a gap (18) <br>
+    <input type="checkbox"> Knit 1 round even <br>
+    <ol class="checkbox1">
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+      <li><input type="checkbox"> Knit 2x2 rib in the round <br></li>
+    </ol>
+    <input type="checkbox"> Cast Off loosely <br>
+    <input type="checkbox"> Weave in the ends <br>
+    Your fingerless mitten is now finished!
+    </p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col">
+        <!-- Abbreviation -->
+        <div class="abrv">
+          <div class="card" style="width: 16rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center"><b> Abbreviations </b></li>
+              <li class="list-group-item"> sts - stitches </li>
+              <li class="list-group-item"> CO - Cast On </li>
+              <li class="list-group-item"> K - Knit </li>
+              <li class="list-group-item"> P - Purl </li>
+              <li class="list-group-item"> SL ST - Slip Stitch </li>
+              <li class="list-group-item"> PM - Place (stitch) Marker </li>
+              <li class="list-group-item"> SM - Slip (stitch) Marker </li>
+              <li class="list-group-item"> M1-L - Make 1 Left </li>
+              <li class="list-group-item"> M1-R - Make 1 Right </li>
+              <li class="list-group-item"> K2tog - Knit 2 Together </li>
+              <li class="list-group-item"> P2tog - Purl 2 Together </li>
+              <li class="list-group-item"> SSK - Slip Slip Knit </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+
+<!-- Footer -->
+<footer class="bg-dark py-4 mt-auto">
+  <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+          <div class="col-auto"><div class="small m-0 text-white"> &copy; Copyright 2023 UniStitch </div></div>
+          <div class="col-auto">
+            <a class="link-light small" href="index.html">Home</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="About.html">About</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="About.html#Contacts">Contacts</a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
